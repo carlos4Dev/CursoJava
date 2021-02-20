@@ -1,0 +1,1 @@
+Implementar la emulación de una inscripción de ALUMNOS con sus respectivas MATERIAS , donde las materias pueden tener 7 alumnos máximo y pueden realizar su inscripción cada 10 minutos.
