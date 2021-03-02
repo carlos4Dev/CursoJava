@@ -1,0 +1,44 @@
+function producto(codigo,nombre,precio,cantidad){
+this.codigo = codigo;
+this.nombre = nombre;
+this.precio = precio;
+this.cantidad = cantidad;
+}
+
+producto.prototype.getCodigo = function(){
+return this.codigo;
+}
+
+producto.prototype.setCodigo = function(codigo){
+this.codigo = codigo;
+}
+
+producto.prototype.getNombre = function(){
+return this.nombre;
+}
+
+producto.prototype.setNombre = function(codigo){
+this.nombre = nombre;
+}
+
+
+producto.prototype.getPrecio = function(){
+return this.precio;
+}
+
+producto.prototype.setPrecio = function(precio){
+this.precio = precio;
+}
+
+producto.prototype.getCantidad = function(){
+return this.cantidad;
+}
+
+producto.prototype.setCantidad = function(cantidad){
+this.cantidad = cantidad;
+}
+
+producto.prototype.fullName = function(){
+return this.codigo + " -->> " + this.nombre + ", precio=  " + this.precio + ", cantidad=  " + this.cantidad;
+}
+
